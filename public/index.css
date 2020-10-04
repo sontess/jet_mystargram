@@ -1,0 +1,49 @@
+*{
+ box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body {
+    background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+    font-family: 'Lemonada', cursive;
+    
+}
+
+h1 {
+    color:#fccb90 ;
+}
+.search   {
+    text-align: center;
+
+    display: block;
+    width: 20%;
+    padding: 10px;
+    font-size: 17px;
+   
+    
+border-radius:20px  ;
+margin:auto;
+}
+
+   
+
+.gallery{
+    text-align: center;
+   
+
+}
+.gallery img{
+    margin:auto;
+    border: 5px solid #1874df;
+    padding: 10px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    
+}
+:root{
+    --base:#36a4c5;
+    --spacing:0px;
+    --blur:10px;  
+}
